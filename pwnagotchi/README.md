@@ -14,7 +14,7 @@ As it is already well-resumed on [the official website](https://pwnagotchi.ai), 
 
 Getting a pwnagotchi is not expensive and very cool to configure, I will show you what hardware I use for it.
 
-#[Look mom !](static/grid.png)
+![Look mom !](static/grid.png)
 
 ## Hardware
 I bought a Raspberry Pi Zero W (RPi0) for about 13€ ($14.5), you can search for one [here](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). With that I purchased an external battery with a 24800mAh capacity (I don't remember the price sorry).
