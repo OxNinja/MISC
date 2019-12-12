@@ -14,6 +14,8 @@ As it is already well-resumed on [the official website](https://pwnagotchi.ai), 
 
 Getting a pwnagotchi is not expensive and very cool to configure, I will show you what hardware I use for it.
 
+#[Look mom !](static/gris.png)
+
 ## Hardware
 I bought a Raspberry Pi Zero W (RPi0) for about 13€ ($14.5), you can search for one [here](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). With that I purchased an external battery with a 24800mAh capacity (I don't remember the price sorry).
 I also got myself an SD card with enough capacity (32Gb). On top of that I got a Waveshare 2.13" screen, [look here](https://www.waveshare.com/2.13inch-e-paper-hat.htm) for one. Of course, you will have to get yourself an USB cable capable of tranfering data, and not only charging.
