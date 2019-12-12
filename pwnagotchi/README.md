@@ -79,3 +79,13 @@ You can now ssh to it with the credentials `pi:raspberry`.
 ### Share internet with your pwnagotchi
 You will need to share internet with your pwnagotchi if you want it to update or share its treasures on the grid.
 Download the [corresponding script](https://pwnagotchi.ai/configuration/#host-connection-sharing) on your computer, change the default values with yours, make the script executable, and run it ! That's all.
+
+### Bash aliases
+Yay aliases are cool !
+pwnagotchi's `.bashrc` :
+```bash
+alias pwn_handshakes='sudo ls -al /root/handshakes'
+alias pwn_version='python3 -c "import pwnagotchi as p; print(p.version)"'
+alias pwn_log='tail -f -n300 /var/log/pwn* | sed --unbuffered "s/,[[:digit:]]\{3\}\]//g" | cut -d " " -f 2-'
+alias pwn_backup='/etc/pwnagotchi/scripts/backup.sh 10.0.0.1 pwnagotchi_backup.zip'
+```
