@@ -8,13 +8,12 @@ Generate your Root-Me badge in PHP !
 3. [How to install and use](#how-to-install-and-use)
 
 	3.1. [Install Requests](#install-requests)
-
-    	3.2. [Install the badge generator](#install-the-badge-generator)
-
-    	3.3. [Tweak your config](#tweak-your-config)
+	3.2. [Install the badge generator](#install-the-badge-generator)
+	3.3. [Tweak your config](#tweak-your-config)
 
 ## Overview
 With this php script you can generate your own Root-Me badge :
+
 ![Example of generated badge](sample_badge.png)
 
 ## Dependencies
@@ -26,20 +25,22 @@ You will need to install it on your server before using the badge generator.
 ### Install Requests
 Go to the library's repo : [Request PHP library](https://github.com/rmccue/Requests)
 Install from the source :
-
-> $ git clone git://github.com/rmccue/Requests.git
-
+```bash
+git clone git://github.com/rmccue/Requests.git
+```
 And... voilà !
 
 ### Install the badge generator
 Install from the source :
 
 With SSH
-> $ git clone git@framagit.org:0xNinja_/root-me-badge.git
-
+```bash
+git clone git@framagit.org:0xNinja_/root-me-badge.git
+```
 Or via HTTPS
-> $ git clone https://framagit.org/0xNinja_/root-me-badge.git
-
+```bash
+git clone https://framagit.org/0xNinja_/root-me-badge.git
+```
 You just have to include the bagde generator in your web page :
 ```php
 <?php include("/your/path/to/root-me-bage.php"); ?>
