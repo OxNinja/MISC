@@ -91,3 +91,8 @@ alias pwn_version='python3 -c "import pwnagotchi as p; print(p.version)"'
 alias pwn_log='tail -f -n300 /var/log/pwn* | sed --unbuffered "s/,[[:digit:]]\{3\}\]//g" | cut -d " " -f 2-'
 alias pwn_backup='/etc/pwnagotchi/scripts/backup.sh 10.0.0.1 pwnagotchi_backup.zip'
 ```
+
+### Find your pwnagotchi's id
+```bash
+cat /var/log/pwngrid-peer.log | tr -d '\000' | grep "[a-f0-9]\{64\}" | tail -n 1
+```
