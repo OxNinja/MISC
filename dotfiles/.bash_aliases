@@ -25,12 +25,15 @@ function extract(){
 }
 
 function mkcd() {
-	mkdir $1
+	mkdir -p $1
 	cd $1
 }
 
 # Aliases
 
+alias ls='ls --color=auto'
+alias la='ls -a'
+alias grep='grep --color=auto'
 alias fuck='sudo $(history -p !!)'
 alias reload='source ~/.bashrc'
 alias vim='nvim'
