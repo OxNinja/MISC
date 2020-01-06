@@ -31,10 +31,19 @@ call plug#end()
 " Config
 
 colorscheme monokai-bold
+"colorscheme material-monokai is pretty good too
 
 set number
 syntax on
-set tabstop=4 softtabstop=4 shiftwidth=4 showmatch
+set tabstop=4 softtabstop=4 shiftwidth=4 showmatch expandtab autoindent smartindent wrap
+
+if !&scrolloff
+  set scrolloff=3
+endif
+
+if !&sidescrolloff
+  set sidescrolloff=5
+endif
 
 map <C-l> :noh<ENTER>
 
