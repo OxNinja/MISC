@@ -30,8 +30,7 @@ call plug#end()
 
 " Config
 
-colorscheme monokai-bold
-"colorscheme material-monokai is pretty good too
+colorscheme material-monokai
 
 set number
 syntax on
