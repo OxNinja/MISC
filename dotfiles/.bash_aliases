@@ -37,9 +37,18 @@ function mkcd() {
 
 # Aliases
 
+# MISC
 alias ls='ls --color=auto'
 alias la='ls -a'
+alias ll='ls -l'
 alias grep='grep --color=auto'
 alias fuck='sudo $(history -p !!)'
 alias reload='source ~/.bashrc'
 alias vim='nvim'
+alias py_wal='wal -i ~/Pictures/wallpapers/'
+alias makeit='makepkg -isc'
+# Docker
+alias docker='sudo docker'
+alias sqlmap='docker run --rm -it -v /tmp/sqlmap:/root/.sqlmap/ paoloo/sqlmap'
+alias wpscan='docker run --rm -it wpscanteam/wpscan'
+alias nikto='docker run --rm -it frapsoft/nikto'
