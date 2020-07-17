@@ -6,7 +6,7 @@
 " ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝     ╚═╝
 
 " Plugins
-call plug#begin('~/.config/nvim/autoload/plug.vim')
+call plug#begin('~/.vim/plugged')
 
 " pywal config
 Plug 'dylanaraps/wal.vim'

@@ -16,8 +16,5 @@ if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
 
-# pywal
-(cat ~/.cache/wal/sequences &)
-
 # kitty
 source <(kitty + complete setup bash)
